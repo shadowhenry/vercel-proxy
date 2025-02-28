@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 const server = micro(async (req, res) => {
   try {
-    const url = 'https://start.boldvoice.com/accent-guesser' + req.url;
+    const url = 'https://start.boldvoice.com' + req.url;
     const response = await fetch(url);
     const contentType = response.headers.get('Content-Type') || '';
     res.setHeader('Content-Type', contentType);
