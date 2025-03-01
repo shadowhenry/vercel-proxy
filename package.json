@@ -8,8 +8,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "test",
   "dependencies": {
-    "micro": "^10.0.1"
-  }
+    "micro": "^10.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowhenry/vercel-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shadowhenry/vercel-proxy/issues"
+  },
+  "homepage": "https://github.com/shadowhenry/vercel-proxy#readme"
 }
